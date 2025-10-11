@@ -3,39 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document
+    </title>
 </head>
-    <style>
-        body{
-        background: #373B44;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        }
-    </style>
+<style>
+    body{
+    background: #03001e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+</style>
 <body>
-    <h1 class="Fondo2">Encabezado1</h1>
-    <h1 class:"Fondo" id="Encabezado">Encabezado2</h1>
-    <p class="Fondo">
-        Como amo tanto a mi novia jajaja,
-        bueno para entender la historia de fnaf primero
-        debemos de entender que los libros de los ojos 
-        de plata no son canon no hablaremos de eso pero si 
-        hablaremos del pasado... Buenas noches caballeros 
-        espero que esten bien esta noche mi bellos xd
-    </p>
-    <h2 class="Fondo">hola soy cesar emanuel</h2>
-    <table class="Fondo" border="1">
-        <tr>
-            <td>Te</td>
-            <td>Amo</td>
-        </tr>
-        <tr>
-            <td>Mucho</td>
-            <td>C</td>
-        </tr>
-    </table>
+    <form action="">
+        <fieldset>
+            <legend>Elige tu lenguaje favorito</legend>
+
+            <input type="radio" id="HTML" name="lenguaje" value="K">
+            <label for="HTML">HTML</label>
+
+            <input type="radio" id="HTML" name="lenguaje" value="K">
+            <label for="HTML">Java</label>
+
+            <input type="radio" id="HTML" name="lenguaje" value="K">
+            <label for="HTML">C#</label><br>
+        </fieldset>
+        <!--Inicio grupo de carrera-->
+        <br>
+        <fieldset>
+            <legend>2.Elige tu carrera favorita</legend>
+            <input type="checkbox" name="chbx" id="agree" value="Yes!"/>
+            <label for="chbx">Programacion Web</label>
+            <br>
+            <input type="checkbox" name="chbx" id="agree" value="Yes!"/>
+            <label for="chbx">Soprte Equipo Computo</label>
+            <br>
+            <input type="checkbox" name="chbx" id="agree" value="Yes!"/>
+            <label for="chbx">Base de datos</label>
+            <br>
+            <input type="checkbox" name="chbx" id="agree" value="Yes!"/>
+            <label for="chbx">Otros</label>
+        </fieldset>
+        <!--FIN grupo de carrera-->
+        <br>
+        <!--Inicio grupo de escuela-->
+        <fieldset>
+            <legend>Escuela</legend>
+            <select name="escuela" id="">
+                <option value="">--Please choose--</option>
+                <option value="cetis">CETIS112</option>
+                <option value="conalep">CONALEP</option>
+                <option value="cbtis95">CBTIS98</option>
+                <option value="cbtis120">CBTIS120</option>
+                </select>
+        </fieldset>
+        <!--FIN grupo de escuela-->
+        <label for="">Nombre</label>
+        <input type="text">
+        
+        <br><br>
+        <button>Enviar</button>
+    </form>
 </body>
-
 </html>
-
