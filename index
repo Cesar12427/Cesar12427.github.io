@@ -5,23 +5,7 @@
     <title>Maravillos Estado de Campeche</title>
     <link rel="stylesheet" href="CampecheEstado.css">
 </head>
-<body>
-    <h1>Campeche</h1>
-    <p>Campeche es un estado mexicano de la península de Yucatán que se extiende por colinas de
-caliza, bosques tropicales y playas del golfo de México. La capital, del mismo nombre, es
-una ciudad portuaria de la época colonial con arquitectura barroca española, calles de
-adoquines y un distrito histórico amurallado. Sus fortificaciones preservadas incluyen el
-Fuerte de San Miguel, con un museo de arqueología que exhibe artefactos de sitios mayas
-locales, incluidos Edzná e Isla de Jaina. </p><br>
-<div>
-    <img class="Imagen" src = "campeche.jpg" alt = "xd" class="" width="600" height="400"><br>
-<!-- <table> </table>
-<td> table data (columna) pa bajo
-<tr> table row (fila) pa lao 
--->
-<br>
-<table>
-  <style>
+ <style>
   h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
@@ -104,6 +88,21 @@ th, td {
   text-align: left; /* Alinea el texto a la izquierda */
 }
   </style>
+<body>
+    <h1>Campeche</h1>
+    <p>Campeche es un estado mexicano de la península de Yucatán que se extiende por colinas de
+caliza, bosques tropicales y playas del golfo de México. La capital, del mismo nombre, es
+una ciudad portuaria de la época colonial con arquitectura barroca española, calles de
+adoquines y un distrito histórico amurallado. Sus fortificaciones preservadas incluyen el
+Fuerte de San Miguel, con un museo de arqueología que exhibe artefactos de sitios mayas
+locales, incluidos Edzná e Isla de Jaina. </p><br>
+<br>
+<!-- <table> </table>
+<td> table data (columna) pa bajo
+<tr> table row (fila) pa lao 
+-->
+<br>
+<table>
   <tr class="cuerpe">
     <th colspan="4">Detalles de la población de Campeche (Censo 2020)</th>
   </tr>
@@ -153,9 +152,6 @@ servicios, como restaurantes y centros comerciales. </p> <br>
     <p>Aunque ha habido expansión reciente, la economía del estado tuvo un crecimiento promedio <br>
 negativo entre 2018 y 2023. </p> <br>
     
-    <div style="display: flex; justify-content: center; align-items: center; height: 300px;">
-      <img src="campeche kiosko.jpg" alt="">
-    </div>
     <h2>¡Comidas tradicionales de Campeche!</h2>
     <ol>
       <li class="Cambio">Bistec de casuela</li>
